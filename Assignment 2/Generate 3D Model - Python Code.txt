@@ -1,0 +1,15 @@
+import bpy
+my_list = [*Array of values*]
+
+#For loop for each array value
+for idx, member in enumerate(my_list):
+#Determines where the new line gets placed on the x axis
+    x = int(*Line*)
+#Determines where the new line gets placed on the y axis, depending on the index value, 
+#every value is a block of 2 wide, so every block is placed 2 to the side so they don't overlap
+    y = int(idx*2)
+#Determines the height of block depending on the value of the array item
+    z = float(member/2)
+#Adds cube at given lvoation
+    bpy.ops.mesh.primitive_cube_add(location=(x,y,z))
+    bpy.context.scene.objects.active.dimensions[2] = (member)

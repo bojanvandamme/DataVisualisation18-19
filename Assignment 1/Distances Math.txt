@@ -1,0 +1,24 @@
+Math behind the distances on my poster
+--------------------------------------
+
+0,05cm (op A3) = 1km
+
+Aarde = 12.742km = 637,1
+
+LEO =  2.042 km
+
+Maan =  384.400 km = 19.220
+
+Gravity Field and Steady-State Ocean Circulation Explorer = 268km = 13,4
+Mir =  358 km = 17,9
+Tiangong 2 = 393km = 19,65
+Internationaal ruimtestation ISS = 408km = 20,4
+Fermi Gamma-Ray Space Telescope = 550km = 27,5
+Hubble Space Telesczope = 568km = 28,4
+Spoetnik 1 = 577km = 28,85
+Iridium satellite constellation = 781km = 39,05
+
+
+
+
+

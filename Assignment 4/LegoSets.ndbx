@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ndbx formatVersion="21" type="file" uuid="658a5f07-91e1-4e2d-b686-d795aec8c709">
+    <property name="canvasHeight" value="1080"/>
+    <property name="canvasWidth" value="2160"/>
+    <property name="canvasX" value="0"/>
+    <property name="canvasY" value="0"/>
+    <node name="root" prototype="core.network" renderedChild="combine2">
+        <node name="align1" position="3.00,10.00" prototype="corevector.align">
+            <port name="halign" type="string" value="left"/>
+        </node>
+        <node name="combine1" position="0.00,12.00" prototype="list.combine"/>
+        <node name="combine2" position="1.00,18.00" prototype="list.combine"/>
+        <node name="count1" position="8.00,7.00" prototype="list.count"/>
+        <node name="divide1" position="5.00,5.00" prototype="math.divide">
+            <port name="value2" type="float" value="5.5"/>
+        </node>
+        <node name="filter_data1" position="2.00,-2.00" prototype="data.filter_data">
+            <port name="key" type="string" value="year"/>
+            <port name="value" type="string" value="2017"/>
+        </node>
+        <node name="frame1" position="6.00,-4.00" prototype="core.frame"/>
+        <node name="import_csv1" position="2.00,-4.00" prototype="data.import_csv">
+            <port name="file" type="string" value="sets.csv"/>
+        </node>
+        <node name="line1" position="6.00,9.00" prototype="corevector.line">
+            <port name="point1" type="point" value="-320.00,-22.00"/>
+            <port name="point2" type="point" value="-320.00,463.00"/>
+        </node>
+        <node name="lookup1" position="-1.00,3.00" prototype="data.lookup">
+            <port name="key" type="string" value="name"/>
+        </node>
+        <node name="lookup2" position="2.00,3.00" prototype="data.lookup">
+            <port name="key" type="string" value="year"/>
+        </node>
+        <node name="lookup3" position="5.00,3.00" prototype="data.lookup">
+            <port name="key" type="string" value="num_parts"/>
+        </node>
+        <node name="lookup4" position="-4.00,3.00" prototype="data.lookup">
+            <port name="key" type="string" value="set_num"/>
+        </node>
+        <node name="rect1" position="5.00,7.00" prototype="corevector.rect">
+            <port name="height" type="float" value="76.0"/>
+        </node>
+        <node name="resample1" position="5.00,11.00" prototype="corevector.resample">
+            <port name="method" type="string" value="amount"/>
+        </node>
+        <node name="slice1" position="2.00,0.00" prototype="list.slice">
+            <port name="size" type="int" value="5"/>
+        </node>
+        <node name="sub_string1" position="2.00,5.00" prototype="string.sub_string"/>
+        <node name="textpath1" position="2.00,7.00" prototype="corevector.textpath">
+            <port name="font_size" type="float" value="481.0"/>
+            <port name="align" type="string" value="LEFT"/>
+            <port name="position" type="point" value="-331.00,-136.00"/>
+        </node>
+        <node name="textpath2" position="-1.00,7.00" prototype="corevector.textpath">
+            <port name="font_size" type="float" value="34.0"/>
+            <port name="align" type="string" value="RIGHT"/>
+            <port name="position" type="point" value="-28.00,-7.00"/>
+        </node>
+        <node name="textpath3" position="-4.00,7.00" prototype="corevector.textpath">
+            <port name="align" type="string" value="RIGHT"/>
+            <port name="position" type="point" value="-28.00,28.00"/>
+        </node>
+        <node name="translate1" position="1.00,16.00" prototype="corevector.translate"/>
+        <conn input="translate1.translate" output="resample1"/>
+        <conn input="resample1.shape" output="line1"/>
+        <conn input="resample1.points" output="count1"/>
+        <conn input="lookup2.list" output="slice1"/>
+        <conn input="lookup3.list" output="slice1"/>
+        <conn input="sub_string1.string" output="lookup2"/>
+        <conn input="textpath1.text" output="sub_string1"/>
+        <conn input="lookup1.list" output="slice1"/>
+        <conn input="textpath2.text" output="lookup1"/>
+        <conn input="combine1.list3" output="textpath2"/>
+        <conn input="align1.shape" output="rect1"/>
+        <conn input="combine1.list2" output="align1"/>
+        <conn input="translate1.shape" output="combine1"/>
+        <conn input="filter_data1.data" output="import_csv1"/>
+        <conn input="combine2.list1" output="translate1"/>
+        <conn input="combine2.list2" output="textpath1"/>
+        <conn input="divide1.value1" output="lookup3"/>
+        <conn input="rect1.width" output="divide1"/>
+        <conn input="count1.list" output="divide1"/>
+        <conn input="filter_data1.value" output="frame1"/>
+        <conn input="lookup4.list" output="slice1"/>
+        <conn input="slice1.list" output="filter_data1"/>
+        <conn input="combine1.list1" output="textpath3"/>
+        <conn input="textpath3.text" output="lookup4"/>
+    </node>
+</ndbx>
