@@ -61,7 +61,7 @@ Assignment 3 is a website where when a person types in a textbox, the amount of 
 
 ## Assignment 4
 #### Process
-I wanted to do something with the sizes of different LEGO sets. so I found a dataset online with all the LEGO sets created since 1949 with the amount of bricks of each.
+I wanted to do something with the sizes of different LEGO sets. So I found a dataset online with all the LEGO sets created since 1949 with the amount of bricks of each.
 
 I then imported this CSV file into Node Box and created a visualisation that goes over every year, and visualises the top 5 biggest boxes. After that I exported all the needed images of a range from 1949-2019. I then created a Premiere Pro sequence which resulted in my slow video. 
 
