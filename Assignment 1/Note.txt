@@ -1,0 +1,23 @@
+Assignment 1
+
+Process
+I wanted to do something with space, so I looked for certain space crafts in space
+ and found a lot of famous ones were located in the LEO, Low Earth Orbit. 
+So I calculated all the distances for on a poster, and drew them in comparison to Earth.
+
+This was not good enough for the teacher so I also compared all the data to the distance to the moon. 
+Since this was impossible to place on 2 posters, but rather 322. 
+We decided to make the other 320 pages to be put down as a bundle.
+
+Goal
+Visualise the distances of different space crafts in low earth orbit compared to each other and Earth 
+(and later also the Moon).
+
+Properties
+Intent: A.1 Explanatory
+
+Appearance: A.2 Static
+
+Result
+Assignment 1 is a visualisation of the distance between different space crafts in Low Earth Orbit, 
+compared to Earth and the Moon.

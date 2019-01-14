@@ -1,0 +1,32 @@
+Assignment 2
+
+Process
+I wanted to see if you could visually see an image, when it was made in 3D, 
+and the height was determined by the R,G or B value. 
+I first started with finding how I could split an image into it's 3 color channels. 
+This was possible in Photoshop so i ended up with 3 different 30x32 images.
+
+I then manually raised every pixel in fusion 360 according to the value 
+I got with the eyedropper tool in Photoshop. This I did with the first 5 lines of the image, 
+to have a prototype to show the teacher. He then advised me not to do it manually, 
+but write a Python code and use Blender.
+
+I then did all the other colors using this method, generating row after row according to an array. 
+The arrays I still had to make by hand with Photoshop.
+
+Goal
+Have 3 different prints, of each color channel, where the difference between them is visible.
+
+Properties
+Intent: A.1 Exploratory
+
+Media: B Physical
+
+Appearance: A.2 Static
+
+Other: A.x 3D
+
+Result
+Assignment 2 is a visualisation of a low resolution picture, 
+which I have seperated into the 3 color channels. R G and B each have their own 3D model, 
+the height of each pixel represents the amount of Red, Green or Blue in that pixel.

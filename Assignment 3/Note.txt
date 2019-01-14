@@ -1,0 +1,21 @@
+Assignment 3
+
+Process
+I started by making it possible to store the amount of each typed letter with the letter. 
+After this I created a basic bar chart with a bar for each letter. 
+Eventually I made it look like the barchart filled up big A's, B's, C's,... .
+
+Goal
+Have an interactive website, where there is a visualisation of the amount of A's, B's, C's,... 
+you have typed in that text.
+
+Properties
+Intent: A.1 Exploratory
+
+Appearance: A.2 Interactive
+
+Other: A.x D3
+
+Result
+Assignment 3 is a website where when a person types in a textbox, 
+the amount of times a certain letter is typed gets visualised.

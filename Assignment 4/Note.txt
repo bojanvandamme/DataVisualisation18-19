@@ -1,0 +1,30 @@
+Assignment 4
+
+Process
+I wanted to do something with the sizes of different LEGO sets. 
+So I found a dataset online with all the LEGO sets created since 1949 with the amount of bricks of each.
+
+I then imported this CSV file into Node Box and created a visualisation that goes over every year, 
+and visualises the top 5 biggest boxes. After that I exported all the needed images 
+of a range from 1949-2019. I then created a Premiere Pro sequence which resulted in my slow video.
+
+In my opinion the slow video was too slow to compare the amount of bricks over the years, 
+but faster would be unreadable. So I created a second video. 
+In this video the extra information isn't there to distract 
+and the video can play faster to visualise the increase of sizes.
+
+Goal
+Create a linear video which compares the amount of bricks in LEGO sets for every year 
+since the start of LEGO.
+
+Properties
+Intent: A.1 Explanatory
+
+Appearance: A.2 Linear
+
+Other: A.x Node-based
+
+Result
+Assignment 4 are 2 videos, which show 5 of the biggest LEGO sets for each year, 
+starting when LEGO first began in 1949 up until 2019. And compares their amount of bricks. 
+One video is a fast video, to compare the amount, the other is a slower video so you can read information about each set.
