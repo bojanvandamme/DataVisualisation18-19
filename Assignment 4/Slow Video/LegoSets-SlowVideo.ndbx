@@ -20,7 +20,7 @@
         </node>
         <node name="frame1" position="6.00,-4.00" prototype="core.frame"/>
         <node name="import_csv1" position="2.00,-4.00" prototype="data.import_csv">
-            <port name="file" type="string" value="Lego Sets 1949-2019.csv"/>
+            <port name="file" type="string" value="../Lego Sets 1949-2019.csv"/>
         </node>
         <node name="line1" position="6.00,9.00" prototype="corevector.line">
             <port name="point1" type="point" value="-320.00,-22.00"/>

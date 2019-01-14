@@ -1,0 +1,6 @@
+How to Make Node Box Files Work
+
+Because the date filter-data node is linked to the frames node, 
+the data shown will depend on the frame number seen on the bottom left of Node Box.
+since my dataset starts at 1949 you have to change that frame count to 1949 to see the first date,
+and go up to see the other dates up until 2019.
