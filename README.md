@@ -16,6 +16,9 @@ Assignment 3 is an interactive D3 website where when a person types, the amount 
 
 ## Assignment 4
 
-Assignment 4 is a linear node based video, which shows 5 of the biggest LEGO sets for each year, starting when LEGO first began in 1949 up until 2019. And ompares their amount of bricks
+Assignment 4 are 2 linear node based videos, which shows 5 of the biggest LEGO sets for each year, starting when LEGO first began in 1949 up until 2019. And vompares their amount of bricks. One video is a fast video, to compare the amount, the other is a slwoer video so you can read information about it.
 
 ## Assignment 5
+# Million Dollar BILL
+
+Assignment 5 is a node based datavisualisation with Node Box, that compare the top 100 richest people in the world.
