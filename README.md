@@ -43,6 +43,7 @@ Other: A.x 3D
 Assignment 2 is a visualisation of a low resolution picture, which I have seperated into the 3 color channels. R G and B each have their own 3D model, the height of each pixel represents the amount of Red, Green or Blue in that pixel.
 
 ## Assignment 3
+### Another Brick in the Wall
 #### Process
 I started by making it possible to store the amount of each typed letter with the letter. After this I created a basic bar chart with a bar for each letter. Eventually I made it look like the barchart filled up big A's, B's, C's,... .
 
