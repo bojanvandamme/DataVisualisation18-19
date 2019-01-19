@@ -84,7 +84,7 @@ Assignment 4 are 2 videos, which show 5 of the biggest LEGO sets for each year, 
 ## Assignment 5
 ### Million Dollar BILL
 #### Process
-I found a dataset online which showed the top 100 richest people in the world. I wanted to created something in Node Box again, so i played with it until I came to a visualisation I liked. I then thought of making it into a Dollar Bill, as an extra "fun for the eyes" look. So I designed a simple dollar bill and placed my Node Box data visualisation in it. And in the end, since Bill Gates is the richest, I came up with the name "The Million Dollar BILL".
+I found a dataset online which showed the top 100 richest people in the world. I wanted to created something in Node Box again, so I played with it until I came to a visualisation I liked. The numbers were so big i had to divide it by 25 million to get a nice visualisation. I then thought of making it into a Dollar Bill, as an extra "fun for the eyes" look. So I designed a simple dollar bill and placed my Node Box data visualisation in it. And in the end, since Bill Gates is the richest, I came up with the name "The Million Dollar BILL".
 
 #### Goal
 Make a data visualisation which compares the top 100 richest people.
